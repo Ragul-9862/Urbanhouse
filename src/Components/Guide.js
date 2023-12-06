@@ -4,8 +4,7 @@ import React from "react";
 import buyIcon from "../media/buy_icon.png";
 import sellIcon from "../media/sell_icon.png";
 import rentIcon from "../media/rent_icon.png";
-
-import ArrowRightAltIcon from "@mui/icons-material/ArrowRightAlt";
+import ArrowRightOutlinedIcon from '@mui/icons-material/ArrowRightOutlined';
 import CustomButton from "./CustomButton";
 
 const Guide = () => {
@@ -109,7 +108,7 @@ const Guide = () => {
             >
               How to buy
             </Typography>
-            <ArrowRightAltIcon style={{ color: "#0689FF" }} />
+            <ArrowRightOutlinedIcon style={{ color: "#0689FF" }} />
           </Box>
         </GuideBox>
 
@@ -140,7 +139,7 @@ const Guide = () => {
             >
               How to rent
             </Typography>
-            <ArrowRightAltIcon style={{ color: "#0689FF" }} />
+            <ArrowRightOutlinedIcon style={{ color: "#0689FF" }} />
           </Box>
         </GuideBox>
 
@@ -171,7 +170,7 @@ const Guide = () => {
             >
               How to sell
             </Typography>
-            <ArrowRightAltIcon style={{ color: "#0689FF" }} />
+            <ArrowRightOutlinedIcon style={{ color: "#0689FF" }} />
           </Box>
         </GuideBox>
       </GuidesBox>
